@@ -1,0 +1,11 @@
+
+select now();
+select curdate();
+select curtime();
+select DATE_ADD(CURDATE(),INTERVAL EXPR UNIT); -- DATE ADD
+  select DATE_ADD(CURDATE(),INTERVAL '1-2' year_month);
+select DATE_SUB(CURDATE(),INTERVAL EXPR UNIT); -- DATE SUB
+select EXTRACT(UNIT FROM DATE);   -- EXTRACT SPECIFIC PART
+select DATEDIFF(DATE1,DATE2);   -- RETURNS IN THE NUMBER
+select DATE_FORMAT(CURDATE(),'%d/%m/%Y');  -- FORMATS A DATE 
+-- INTO SPECIFICED FORAMT
